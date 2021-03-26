@@ -1,0 +1,1 @@
+python3 detect.py --source '/Users/natthapholuthumphirat/Desktop/yolov5/yolov5/data/images/test' --weights '/Users/natthapholuthumphirat/Desktop/yolov5/yolov5/runs/train/invocr/weights/last.pt' --img 640 --conf 0.5 --save-txt

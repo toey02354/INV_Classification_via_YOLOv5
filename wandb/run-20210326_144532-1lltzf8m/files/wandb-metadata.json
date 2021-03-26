@@ -1,0 +1,33 @@
+{
+    "os": "macOS-11.2-x86_64-i386-64bit",
+    "python": "3.9.2",
+    "heartbeatAt": "2021-03-26T07:45:35.299311",
+    "startedAt": "2021-03-26T07:45:32.030755",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "--img",
+        "416",
+        "--batch",
+        "40",
+        "--epochs",
+        "300",
+        "--data",
+        "./data/data.yaml",
+        "--cfg",
+        "./models/yolov5s.yaml",
+        "--weights",
+        "./weights/yolov5s.pt",
+        "--name",
+        "invocr",
+        "--nosave",
+        "--cache"
+    ],
+    "state": "running",
+    "program": "/Users/natthapholuthumphirat/Desktop/yolov5/yolov5/train.py",
+    "codePath": "train.py",
+    "host": "Natthaphols-MacBook-Pro.local",
+    "username": "natthapholuthumphirat",
+    "executable": "/Users/natthapholuthumphirat/Desktop/yolov5/venv_yolo/bin/python3"
+}

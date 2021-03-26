@@ -1,0 +1,31 @@
+train: ./data/images/train/
+test: ./data/images/test/
+val: ./data/images/val/
+
+nc: 22
+
+names:
+  [
+    "Sittichoke",
+    "TyreForYou",
+    "ThaiCharoen_Rubber",
+    "ThaiCharoen_Service",
+    "SamThaiTruck",
+    "SamThaiTruck_Service",
+    "DeDay_TruckTire_Center",
+    "RoongThai",
+    "ChaiChod_RuamYang",
+    "SriRaCha",
+    "KrabiYangThong",
+    "SaGuan",
+    "SaGuan_Chumphorn",
+    "ThaiRat",
+    "BTC",
+    "PY",
+    "CHER",
+    "SamRan_Chaiyaphum",
+    "Ubon_LoYang",
+    "TyreMart",
+    "SaHai",
+    "GiantTyre",
+  ]

@@ -1,0 +1,1 @@
+python3 train.py --img 416 --batch 40 --epochs 300  --data './data/data.yaml' --cfg './models/yolov5s.yaml' --weights './weights/yolov5s.pt' --name invocr --nosave --cache
